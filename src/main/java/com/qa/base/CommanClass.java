@@ -53,6 +53,13 @@ public  class CommanClass extends BaseClass
 		  
 	}
 	
+	public  void hoverFiveHundredMethod() 
+	{
+		 JavascriptExecutor js=(JavascriptExecutor)driver;
+		   js.executeScript("window.scrollBy(0,500)");
+		  
+	}
+	
 	public static void sleepTwoSecMethod() throws Exception 
 	{
 		Thread.sleep(2000);

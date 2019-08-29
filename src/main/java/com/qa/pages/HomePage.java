@@ -2,6 +2,7 @@ package com.qa.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -17,7 +18,11 @@ public class HomePage extends BaseClass{
 	@FindBy(id="cartcount")
 	WebElement clickProductCartBtn;
 	
+	@FindBy(xpath="//a[text()='CHEMICAL GUY']")
+	WebElement chemicalProductLink;
 	
+	@FindBy(xpath="//div[@class='ui-slider-range ui-corner-all ui-widget-header']")
+	WebElement sliderForPrice;
 	public HomePage()
 	{
 	PageFactory.initElements(driver, this);
@@ -30,12 +35,21 @@ public class HomePage extends BaseClass{
 		
 		
 	}
-	public CartDetailPage clickOnCart() 
+	public void clickOnCart() 
 	{
 		clickProductCartBtn.click();
 		
-		return new CartDetailPage();
+		
 	}
 	
+	public void clickOnChemicalProduct()
+	{
+		chemicalProductLink.click();
+	}
 	
+	public void clickOnSliderForProductPriceBy() {
+		  Actions SliderAction = new Actions(driver);
+		  SliderAction.clickAndHold(sliderForPrice).moveByOffset(5, -5).build().perform();
+	//	sliderForPrice.click();
+	}
 }

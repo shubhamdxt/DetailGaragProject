@@ -1,6 +1,7 @@
 package com.qa.tests;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -30,7 +31,7 @@ public class HomeTest extends BaseClass{
     	 comman=new CommanClass();
       }
       
-      @Test(priority=1)
+/*      @Test(priority=1)
       public void verifyProductClick() throws Exception
       {
     	  
@@ -59,6 +60,50 @@ public class HomeTest extends BaseClass{
     	  homePage.clickOnProduct();
     	  comman.sleepTwoSecMethod();
     	  homePage.clickOnCart();
+      }*/
+      
+/*      @Test(priority=3)
+      public void verifyChemicalproduct() throws Exception
+      {
+    	  
+    	  loginPage.clickOnRegisterLink();
+    	  comman.sleepTwoSecMethod();
+    	  comman.commanClass();
+    	  comman.sleepTwoSecMethod();
+    	  
+    	  comman.hoverMethod();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnProduct();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnCart();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnChemicalProduct();
+    	  comman.sleepTwoSecMethod();
+    	  
+    	 
+      }
+      */
+      @Test(priority=4)
+      public void verifySliderForProductPriceBy() throws Exception
+      {
+    	  
+    	  loginPage.clickOnRegisterLink();
+    	  comman.sleepTwoSecMethod();
+    	  comman.commanClass();
+    	  comman.sleepTwoSecMethod();
+    	  
+    	  comman.hoverMethod();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnProduct();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnCart();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnChemicalProduct();
+    	  comman.sleepTwoSecMethod();
+    	  comman.hoverFiveHundredMethod();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnSliderForProductPriceBy();
+    	  comman.sleepTwoSecMethod();
       }
       
       
