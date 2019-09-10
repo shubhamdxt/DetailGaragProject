@@ -154,10 +154,8 @@ public class HomeTest extends BaseClass{
     	  comman.sleepTwoSecMethod();
     	  homePage.homeSearchProduct();
     	  comman.sleepTwoSecMethod();
-    	  System.out.println("before search the product");
     	  homePage.submitProduct();
-    	  System.out.println("after search the product");
-    	  comman.sleepTwoSecMethod();
+          comman.sleepTwoSecMethod();
       }
       
 }
