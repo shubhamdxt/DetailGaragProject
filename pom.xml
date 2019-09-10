@@ -24,11 +24,11 @@
 		</dependency> -->
 
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-<dependency>
+            <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
     <version>3.14.0</version>
-</dependency>
+         </dependency>
         
 		<dependency>
 			<groupId>org.testng</groupId>
@@ -81,8 +81,6 @@
 			<artifactId>commons-io</artifactId>
 			<version>2.6</version>
 		</dependency>
-
-
 	</dependencies>
 	<build>
 
@@ -133,7 +131,6 @@
 
 <configuration>
 
-<!-- Suite testng xml file to consider for test execution -->
 
 
 
@@ -160,5 +157,5 @@
 
 </plugins>
 
-</build>
+</build>  
 </project>

@@ -5,8 +5,8 @@
     <classes>
       <class name="com.qa.tests.HomeTest">
         <methods>
-          <include name="verifySliderForProductPriceBy"/>
           <include name="setUP"/>
+          <include name="verifyHomeSubmitProduct"/>
         </methods>
       </class> <!-- com.qa.tests.HomeTest -->
     </classes>

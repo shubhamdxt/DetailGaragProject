@@ -83,7 +83,8 @@ public class HomeTest extends BaseClass{
     	 
       }
       */
-      @Test(priority=4)
+     
+/*      @Test(priority=4)
       public void verifySliderForProductPriceBy() throws Exception
       {
     	  
@@ -105,6 +106,58 @@ public class HomeTest extends BaseClass{
     	  homePage.clickOnSliderForProductPriceBy();
     	  comman.sleepTwoSecMethod();
       }
+      */
+  /*    @Test(priority=5)
+      public void verifyHomeSearchProduct() throws Exception
+      {
+    	  
+    	  loginPage.clickOnRegisterLink();
+    	  comman.sleepTwoSecMethod();
+    	  comman.commanClass();
+    	  comman.sleepTwoSecMethod();
+    	  
+    	  comman.hoverMethod();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnProduct();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnCart();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnChemicalProduct();
+    	  comman.sleepTwoSecMethod();
+    	  comman.hoverFiveHundredMethod();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnSliderForProductPriceBy();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.homeSearchProduct();
+      }*/
       
+      @Test(priority=6)
+      public void verifyHomeSubmitProduct() throws Exception
+      {
+    	  
+    	  loginPage.clickOnRegisterLink();
+    	  comman.sleepTwoSecMethod();
+    	  comman.commanClass();
+    	  comman.sleepTwoSecMethod();
+    	  
+    	  comman.hoverMethod();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnProduct();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnCart();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnChemicalProduct();
+    	  comman.sleepTwoSecMethod();
+    	  comman.hoverFiveHundredMethod();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.clickOnSliderForProductPriceBy();
+    	  comman.sleepTwoSecMethod();
+    	  homePage.homeSearchProduct();
+    	  comman.sleepTwoSecMethod();
+    	  System.out.println("before search the product");
+    	  homePage.submitProduct();
+    	  System.out.println("after search the product");
+    	  comman.sleepTwoSecMethod();
+      }
       
 }

@@ -23,6 +23,13 @@ public class HomePage extends BaseClass{
 	
 	@FindBy(xpath="//div[@class='ui-slider-range ui-corner-all ui-widget-header']")
 	WebElement sliderForPrice;
+	
+	@FindBy(xpath="//input[@name='s']")
+	WebElement homeSearch;
+	
+	@FindBy(xpath="(//button[@type='submit'])[1]")
+	WebElement submitProduct;
+	
 	public HomePage()
 	{
 	PageFactory.initElements(driver, this);
@@ -51,5 +58,14 @@ public class HomePage extends BaseClass{
 		  Actions SliderAction = new Actions(driver);
 		  SliderAction.clickAndHold(sliderForPrice).moveByOffset(5, -5).build().perform();
 	//	sliderForPrice.click();
+	}
+	
+	public void homeSearchProduct() {
+		
+		homeSearch.sendKeys("TetraClean High Foam Car Shampoo Car Washing Liquid");
+	}
+	
+	public void submitProduct() {
+		submitProduct.click();
 	}
 }

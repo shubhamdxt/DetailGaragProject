@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37971" started-at="2019-08-29T13:39:13Z" finished-at="2019-08-29T13:39:51Z">
+  <suite name="Default suite" duration-ms="51968" started-at="2019-09-10T14:44:32Z" finished-at="2019-09-10T14:45:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37971" started-at="2019-08-29T13:39:13Z" finished-at="2019-08-29T13:39:51Z">
+    <test name="Default test" duration-ms="51968" started-at="2019-09-10T14:44:32Z" finished-at="2019-09-10T14:45:24Z">
       <class name="com.qa.tests.HomeTest">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.tests.HomeTest@3e6fa38a]" name="setUP" is-config="true" duration-ms="11947" started-at="2019-08-29T19:09:13Z" finished-at="2019-08-29T19:09:25Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.tests.HomeTest@66a3ffec]" name="setUP" is-config="true" duration-ms="18078" started-at="2019-09-10T20:14:32Z" finished-at="2019-09-10T20:14:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="verifySliderForProductPriceBy()[pri:4, instance:com.qa.tests.HomeTest@3e6fa38a]" name="verifySliderForProductPriceBy" duration-ms="26002" started-at="2019-08-29T19:09:25Z" finished-at="2019-08-29T19:09:51Z">
+        <test-method status="PASS" signature="verifyHomeSubmitProduct()[pri:6, instance:com.qa.tests.HomeTest@66a3ffec]" name="verifyHomeSubmitProduct" duration-ms="33874" started-at="2019-09-10T20:14:50Z" finished-at="2019-09-10T20:15:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySliderForProductPriceBy -->
+        </test-method> <!-- verifyHomeSubmitProduct -->
       </class> <!-- com.qa.tests.HomeTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
