@@ -156,6 +156,7 @@ public class HomeTest extends BaseClass{
     	  comman.sleepTwoSecMethod();
     	  homePage.submitProduct();
           comman.sleepTwoSecMethod();
+          System.out.println("today update");
       }
       
 }
