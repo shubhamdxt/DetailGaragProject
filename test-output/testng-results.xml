@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51968" started-at="2019-09-10T14:44:32Z" finished-at="2019-09-10T14:45:24Z">
+  <suite name="Default suite" duration-ms="46163" started-at="2019-09-12T09:20:13Z" finished-at="2019-09-12T09:21:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51968" started-at="2019-09-10T14:44:32Z" finished-at="2019-09-10T14:45:24Z">
+    <test name="Default test" duration-ms="46163" started-at="2019-09-12T09:20:13Z" finished-at="2019-09-12T09:21:00Z">
       <class name="com.qa.tests.HomeTest">
-        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.tests.HomeTest@66a3ffec]" name="setUP" is-config="true" duration-ms="18078" started-at="2019-09-10T20:14:32Z" finished-at="2019-09-10T20:14:50Z">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.tests.HomeTest@66a3ffec]" name="setUP" is-config="true" duration-ms="11946" started-at="2019-09-12T14:50:13Z" finished-at="2019-09-12T14:50:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method status="PASS" signature="verifyHomeSubmitProduct()[pri:6, instance:com.qa.tests.HomeTest@66a3ffec]" name="verifyHomeSubmitProduct" duration-ms="33874" started-at="2019-09-10T20:14:50Z" finished-at="2019-09-10T20:15:24Z">
+        <test-method status="PASS" signature="verifyHomeSubmitProduct()[pri:6, instance:com.qa.tests.HomeTest@66a3ffec]" name="verifyHomeSubmitProduct" duration-ms="34193" started-at="2019-09-12T14:50:25Z" finished-at="2019-09-12T14:51:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomeSubmitProduct -->

@@ -1,5 +1,7 @@
 package com.qa.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -62,7 +64,10 @@ public class HomePage extends BaseClass{
 	
 	public void homeSearchProduct() {
 		
+		  
 		homeSearch.sendKeys("TetraClean High Foam Car Shampoo Car Washing Liquid");
+	   
+
 	}
 	
 	public void submitProduct() {
