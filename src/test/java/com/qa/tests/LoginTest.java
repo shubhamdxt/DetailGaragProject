@@ -44,6 +44,7 @@ public class LoginTest extends BaseClass{
          comman.commanClass();
           comman.sleepTwoSecMethod();
           System.out.println("after login");
+          System.out.println("after login");
      	
      /*	try 
      	{ 
